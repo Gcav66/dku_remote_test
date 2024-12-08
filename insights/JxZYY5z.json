@@ -1,0 +1,30 @@
+{
+  "type": "managed-folder_content",
+  "params": {
+    "folderSmartId": "dy9hOjP1",
+    "isDirectory": false
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Transactions Scatter Plot",
+  "dashboardCreationId": "zpuCeAb",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1614009601902
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1614009601902
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

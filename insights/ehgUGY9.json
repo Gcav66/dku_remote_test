@@ -1,0 +1,31 @@
+{
+  "type": "managed-folder_content",
+  "params": {
+    "folderSmartId": "dy9hOjP1",
+    "filePath": "/transactions_scatter_plot.png",
+    "isDirectory": false
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "File /transactions_scatter_plot.png of order_total_3d_scatter_plot",
+  "dashboardCreationId": "zpuCeAb",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1614010526551
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1614010526551
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

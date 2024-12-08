@@ -1,0 +1,71 @@
+{
+  "checklists": {
+    "checklists": []
+  },
+  "creationTag": {
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1611252613118,
+    "versionNumber": 0
+  },
+  "customFields": {},
+  "listed": true,
+  "name": "3d Scatter Plot",
+  "owner": "admin",
+  "pages": [
+    {
+      "enableCrossFilters": true,
+      "filtersParams": {
+        "panelPosition": "TOP"
+      },
+      "grid": {
+        "tiles": [
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 4,
+              "left": 0,
+              "top": 0,
+              "width": 4
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "ehgUGY9",
+            "insightType": "managed-folder_content",
+            "resizeImageMode": "FIT_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "minimal": false,
+              "showLegend": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Transactions Scatter Plot",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Transactions Scatter Plot"
+            }
+          }
+        ]
+      },
+      "id": "pC569VT",
+      "showTitle": false
+    }
+  ],
+  "showGrid": true,
+  "tags": [],
+  "versionTag": {
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1614010540110,
+    "versionNumber": 11
+  }
+}
