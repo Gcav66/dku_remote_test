@@ -1,5 +1,12 @@
 {
-  "gitReferences": {},
+  "gitReferences": {
+    "python": {
+      "remote": "git@github.com:Gcav66/dku_remote_test.git",
+      "checkout": "refs/heads/main",
+      "remotePath": "",
+      "isDirty": false
+    }
+  },
   "pythonPath": [
     "python"
   ],
