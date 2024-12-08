@@ -1,7 +1,6 @@
 {
   "type": "python",
   "neverRecomputeExistingPartitions": false,
-  "optionalDependencies": false,
   "params": {
     "envSelection": {
       "envMode": "INHERIT"
@@ -16,6 +15,7 @@
   },
   "redispatchPartitioning": false,
   "maxRunningActivities": 0,
+  "hashPropagationBehavior": "INHERIT",
   "variables": {},
   "dkuProperties": [],
   "inputs": {
@@ -39,19 +39,13 @@
     }
   },
   "labels": [],
-  "versionTag": {
-    "versionNumber": 23,
-    "lastModifiedBy": {
-      "login": "tara"
-    },
-    "lastModifiedOn": 1619734172679
-  },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1613747859471
+    "lastModifiedOn": 1613747859471,
+    "extendedProperties": {}
   },
   "tags": [],
   "customFields": {},

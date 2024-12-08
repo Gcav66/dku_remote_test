@@ -11,8 +11,8 @@ import matplotlib.pyplot as plt
 ecommerce_transactions_with_ip_prepared = dataiku.Dataset("ecommerce_transactions_with_ip_prepared")
 df = ecommerce_transactions_with_ip_prepared.get_dataframe()
 
-# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-df_filtered = df[df['MerchantIP_country'] == 'United States']
+country_name = dataiku.get_variables()["country_name"]
+df_filtered = df[df['MerchantIP_country'] == country_name]
 
 df_avg_purchase = df_filtered[['PurchaseHour', 'CustomerAge', 'OrderTotal']].groupby(by = ['PurchaseHour',
                                                                                  'CustomerAge'],as_index=False).mean()
