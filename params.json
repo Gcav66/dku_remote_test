@@ -35,7 +35,8 @@
   "additionalDashboardUsers": {
     "users": []
   },
-  "tutorialProject": false,
+  "tutorialProject": true,
+  "tutorialId": "DKU_TUT_VARCOD",
   "settings": {
     "flowAnchorSourcesAndSinks": true,
     "flowDisplaySettings": {
@@ -160,7 +161,8 @@
     },
     "dkuProperties": []
   },
-  "name": "Variables for Coders",
+  "name": "Variables for Coders for gus.cavanaugh",
+  "projectStatus": "Sandbox",
   "imgPattern": 3,
   "showInitials": false,
   "metrics": {
