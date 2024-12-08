@@ -4,6 +4,10 @@
       "remote": "git@github.com:Gcav66/dku_remote_test.git",
       "checkout": "refs/heads/main",
       "remotePath": "",
+      "lastHash": "47a5b70aee35d5e06b3adf794541a25cbdc66b2e",
+      "conflictingFiles": [],
+      "resolvedFiles": [],
+      "faultyHash": "",
       "isDirty": false
     }
   },
