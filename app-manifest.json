@@ -1,0 +1,89 @@
+{
+  "projectExportManifest": {
+    "exportUploads": false,
+    "exportAllInputDatasets": false,
+    "exportAllDatasets": false,
+    "exportManagedFS": false,
+    "exportAnalysisModels": false,
+    "exportSavedModels": false,
+    "exportManagedFolders": false,
+    "exportAllInputManagedFolders": false,
+    "exportInsightsData": false,
+    "includedDatasetsData": [
+      {
+        "name": "ecommerce_transactions_with_ip_prepared",
+        "type": "Filesystem"
+      }
+    ],
+    "includedSavedModels": [],
+    "includedManagedFolders": [],
+    "exportGitRepository": false
+  },
+  "instanceFeatures": {
+    "showFlowNavLink": false,
+    "showLabNavLink": false,
+    "showCodeNavLink": false,
+    "showVersionControlFeatures": false
+  },
+  "useAppHomepage": true,
+  "homepageSections": [
+    {
+      "sectionTitle": "View 3d Scatter Plot",
+      "sectionText": "Choose the country you want to filter the dataset on and view the scatter plot.",
+      "tiles": [
+        {
+          "behavior": "MODAL",
+          "params": [
+            {
+              "name": "country_name",
+              "type": "SELECT",
+              "label": "Desired Country",
+              "mandatory": true,
+              "canSelectForeign": false,
+              "markCreatedAsBuilt": false,
+              "allowDuplicates": true,
+              "selectChoices": [
+                {
+                  "value": "United States",
+                  "label": "United States",
+                  "showInColumnPreview": false,
+                  "selected": false
+                },
+                {
+                  "value": "Spain",
+                  "label": "Spain",
+                  "showInColumnPreview": false,
+                  "selected": false
+                },
+                {
+                  "value": "Germany",
+                  "label": "Germany",
+                  "showInColumnPreview": false,
+                  "selected": false
+                }
+              ],
+              "getChoicesFromPython": false,
+              "canCreateDataset": false
+            }
+          ],
+          "type": "PROJECT_VARIABLES_EDIT",
+          "prompt": "Select Country"
+        },
+        {
+          "scenarioId": "Build_Scatter_Plot",
+          "type": "SCENARIO_RUN",
+          "prompt": "Build 3d Scatter Plot"
+        },
+        {
+          "dashboardId": "zpuCeAb",
+          "type": "DASHBOARD_LINK",
+          "prompt": "View Scatter Plot"
+        }
+      ]
+    }
+  ],
+  "label": "Variables 102 Basic",
+  "shortDesc": "The template *Variables 102 Basic* was created by Administrator on Feb 22nd 2021",
+  "tags": [],
+  "instantiationPermission": "USE_APP_MASTER_PERMISSIONS"
+}
